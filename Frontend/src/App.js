@@ -5,6 +5,7 @@ import MyForm from "./screens/Form";
 import Listele from "./screens/Listele";
 import GuncelleForm from "./screens/Guncelle";
 import SilForm from "./screens/Sil";
+import Chat from "./screens/Chat";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <MyForm />
       <GuncelleForm/>
       <SilForm/>
+      <Chat/>
     </div>
   );
 };
