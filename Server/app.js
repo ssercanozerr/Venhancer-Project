@@ -4,13 +4,13 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 app.use(bodyParser.json());
 app.use(cors());
 
 // MongoDB bağlantısı
-mongoose.connect('mongodb://localhost:27017/admin', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost:27017/27017', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // MongoDB veri şemaları
 const productSchema = new mongoose.Schema({
